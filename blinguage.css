@@ -1,0 +1,92 @@
+#bloc_page
+{
+    display: block;
+    background-image: url(blinguage/bg.jpg);
+    background-size: 70%;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+*
+{
+    font-family: 'PT Sans', sans-serif;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: -40px;
+}
+header img
+{
+    margin-left: 80px;
+    width: 180px;
+}
+nav ul
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 120px;
+    margin-top: 80px;
+    list-style-type: none;
+}
+a
+{
+    margin: 20px;
+    text-decoration: none; 
+    color: black;
+    font-size: 1.2em;
+    padding: 5px;
+}
+li:nth-last-child(1)
+{
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+article
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+article h1
+{
+    font-size: 3.6em;
+}
+article p
+{
+    margin-top:-20px;
+}
+article a
+{
+    background-color: rgb(53, 46, 122);
+    color: rgb(224, 217, 190);
+    width: 120px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+}
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+footer img
+{
+    width: 45px;
+    height: 45;
+}
+span
+{
+    font-weight: bold;
+}
+footer div
+{
+    margin:5px;
+}
